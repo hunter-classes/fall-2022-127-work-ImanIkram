@@ -7,3 +7,5 @@ r_int = int(r)
 a = (pi * (r_int**2))
 
 print ("The area of a circle with a radicu of", r, "is", a, ".")
+
+

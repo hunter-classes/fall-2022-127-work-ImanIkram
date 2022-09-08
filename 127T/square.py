@@ -39,8 +39,7 @@ square(crush,150, 20,-100, "blue", 90)
      
 
 
-##def hexagon (t, x,y, color, sidelen):
-  ##code to draw the triangle 
+
   
 ##def ngon (t, numsides, x,y, color, width, sidelen):
   ##code to draw ngon

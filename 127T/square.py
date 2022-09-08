@@ -40,6 +40,3 @@ square(crush,150, 20,-100, "blue", 90)
 
 
 
-  
-##def ngon (t, numsides, x,y, color, width, sidelen):
-  ##code to draw ngon

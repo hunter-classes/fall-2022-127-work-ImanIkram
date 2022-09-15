@@ -3,6 +3,12 @@ wn = turtle.Screen()
 crush = turtle.Turtle()
 
 ## square function 
+def postion_turtle(t,x,y,w,color)
+
+
+
+
+
 
 def square(t, x,y, w, color, sidelen):
   """

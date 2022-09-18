@@ -30,7 +30,7 @@ def is_rightangled (a, b, c):
 print (is_rightangled(3.98,4,5))
 
 #11
-def is_rightangled (a, b, c):
+def is_rightangled2(a, b, c):
     if abs(c**2 + b**2 - a**2) < 0.001:
         return True
     elif abs(c**2 + a**2 - b**2) < 0.001: 
@@ -40,7 +40,7 @@ def is_rightangled (a, b, c):
     else: 
         return False 
     
-print (is_rightangled(7.9,8.8,5))
+print (is_rightangled2(7.9,8.8,5))
 
 
 ##Do Coding Bat, Stirngs_1 "hello_name, make_out_word, and first_two.

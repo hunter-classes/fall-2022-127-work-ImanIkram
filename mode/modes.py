@@ -18,6 +18,18 @@ def freq(l,v):
 num = [1,2,3,4,8,3,2,8,4,0,3,2,3]
 print ("frequency -->", freq(num,3))
 
+def findLargest(l):
+    large = 0
+    for n in l:
+        if large < n:
+          large = n
+    return large
+
+l2 = [13,34,65,34,67,9,54,32,12,11,10]
+print ("maximum value in l2 -->", findLargest(l2))
+
+
+
 
 
 

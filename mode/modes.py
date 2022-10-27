@@ -3,6 +3,8 @@ freq(l,v) which takes a list of numbers (l) and a value (v). The function will r
 of v, that is, the number of times that v appears in l.
 '''
 
+
+
 def findSmallest(s):
   small = min(s)
   return small
@@ -11,6 +13,7 @@ l1 = [13,34,65,34,67,9,54,32,12,11,10]
 print ("minimum value in l1 -->", findSmallest(l1))
 
 
+# frequency 
 def freq(l,v):
     f = l.count(v)     
     return f
@@ -18,6 +21,8 @@ def freq(l,v):
 num = [1,2,3,4,8,3,2,8,4,0,3,2,3]
 print ("frequency -->", freq(num,3))
 
+
+#Find Largest 
 def findLargest(l):
     large = 0
     for n in l:
@@ -27,6 +32,8 @@ def findLargest(l):
 
 l2 = [13,34,65,34,67,9,54,32,12,11,10]
 print ("maximum value in l2 -->", findLargest(l2))
+
+
 
 
 

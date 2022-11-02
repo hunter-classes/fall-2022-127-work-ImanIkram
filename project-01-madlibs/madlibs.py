@@ -14,7 +14,7 @@ data = file.read()
 
 
 # Substitutions 
-noun = ['cat','water','bug','grass','tricks','light']
+noun = ['night','nigthmare','planet','friendship','fear','clothes']
 verb = ['camped','hiked','ate','slept','ran','cried','laughed','cooked']
 adj = ['dark','crazy','odd','excited','lonely','absurd','hilarious']
 char = ['Amanda', 'Aaleia','Alexa','Amelia','Ava']

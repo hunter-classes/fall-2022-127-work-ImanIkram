@@ -46,6 +46,7 @@ def fastMode(dataset):
     return value 
 
 result = fastMode(dataset)
+print(dataset)
 print("Fast Mode -->", result)
 
 

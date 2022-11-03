@@ -42,3 +42,18 @@ print("Fast Mode -->", result)
 
 
 
+# Another way of doing Fast Mode
+dataset2 = buildRandomList(100,100)
+def fastMode2(dataset2):
+  # finds largest value in dataset to create that number of tallies
+    largest = max(dataset)
+    tallies2 = [0 for x in range(largest+1)]
+    for item in dataset:
+        tallies2[item] = tallies2[item]+1
+    highest = max(tallies2)
+    value = tallies2.index(highest)
+    return value 
+
+result2 = fastMode2(dataset2)
+print("Fast Mode 2 -->", result2)    
+  

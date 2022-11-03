@@ -28,15 +28,20 @@ import random
 
 def buildRandomList(size,maxvalue):
     result = [random.randrange(maxvalue) for x in range(size)]
-    return result 
-
+    return result
+  
+#Randomly Generates a list of 100 between 0 and 99 inclusive
 dataset = buildRandomList(100,100)
 
 def fastMode(dataset):
+    #Creates a list of 100 slots equal to 0   
     tallies = [0]*100
+    #Adds 1 to the index of item 
     for item in dataset:
         tallies[item]+=1 
+    #Gets the index with the higest value
     highest = max(tallies)
+    #Gets the value in the index 
     value = tallies.index(highest)
     return value 
 

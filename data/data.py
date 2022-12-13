@@ -1,4 +1,4 @@
-# Which NYC borough has the most active projects under constructions in schools 
+# Which NYC borough has the most active projects under construction in schools 
 #Extra: Use Matplotlib or another Python graphing/plotting library to visualize part or all of your analysis.
 
 import csv
